@@ -16,11 +16,11 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
+  title: 'UI SDK' /* title for your website */,
   tagline: 'A website for testing',
-  url: 'https://facebook.github.io' /* your website url */,
-  baseUrl: '/test-site/' /* base url for your project */,
-  projectName: 'test-site',
+  url: 'https://www.gooddata.com' /* your website url */,
+  baseUrl: '/docs/' /* base url for your project */,
+  projectName: 'gooddata-ui-sdk',
   headerLinks: [
     {doc: 'gettingStarted', label: 'Getting Started'},
     {doc: 'doc4', label: 'API'},
@@ -29,12 +29,12 @@ const siteConfig = {
   ],
   users,
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/logo.svg',
+  footerIcon: 'img/logo.svg',
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
-    primaryColor: '#2E8555',
+    primaryColor: '#4f4f4f',
     secondaryColor: '#205C3B',
   },
   /* custom fonts for website */
@@ -50,9 +50,9 @@ const siteConfig = {
   },*/
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright:
-    'Copyright © ' +
+    'Copyright © 2007 - ' +
     new Date().getFullYear() +
-    ' Your Name or Your Company Name',
+    ' GoodData Corporation. All Rights Reserved.',
   // organizationName: 'deltice', // or set an env variable ORGANIZATION_NAME
   // projectName: 'test-site', // or set an env variable PROJECT_NAME
   highlight: {
@@ -61,7 +61,7 @@ const siteConfig = {
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/gooddata/gooddata-react-components',
 };
 
 module.exports = siteConfig;
