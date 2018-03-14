@@ -10,14 +10,14 @@ const users = [
   {
     caption: 'User1',
     image: '/test-site/img/docusaurus.svg',
-    infoLink: 'https://www.facebook.com',
+    infoLink: 'https://www.gooddata.com',
     pinned: true,
   },
 ];
 
 const siteConfig = {
   title: 'UI SDK' /* title for your website */,
-  tagline: 'A website for testing',
+  tagline: 'Super SDK from GoodData',
   url: 'https://www.gooddata.com' /* your website url */,
   baseUrl: '/docs/' /* base url for your project */,
   projectName: 'gooddata-ui-sdk',
