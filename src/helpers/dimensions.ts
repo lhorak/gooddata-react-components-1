@@ -9,7 +9,6 @@ import {
     SEGMENT,
     TREND,
     ATTRIBUTE,
-    ROWS,
     COLUMNS,
     MEASURES
  } from '../constants/bucketNames';
@@ -29,8 +28,7 @@ export function getDimensionTotals(bucket: VisualizationObject.IBucket): AFM.ITo
 export function getPivotTableDimensions(buckets: VisualizationObject.IBucket[]): AFM.IDimension[] {
     const rowAttributes: VisualizationObject.IBucket = buckets
         .find(
-            bucket => bucket.localIdentifier === ROWS
-
+            bucket => bucket.localIdentifier === ATTRIBUTE
         );
 
     const columnAttributes: VisualizationObject.IBucket = buckets
